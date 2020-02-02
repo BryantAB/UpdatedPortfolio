@@ -1,71 +1,215 @@
+*{
+    box-sizing: border-box;
+    /* font-family: 'Heebo', sans-serif; */
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+body {
+    background-image: url("https://res.cloudinary.com/nflclubs/image/private/t_editorial_landscape_6_desktop_2x/f_auto/seahawks/khtdog8tcr8nziiwsdlw.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+}
+   
 
 
 
+.nav{
+    font-family: 'Montserrat', sans-serif;
+    position: fixed;
+    left: 0;
+    top: 50%;
+    width: auto;
+    margin-top: -2.5em;
+    z-index: 2;
+    /* background-color: salmon; */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+} 
+
+#nav-item{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10pt; 
+    font-weight: 500;
+    padding: 16px;
+    color: whitesmoke;
+}
+
+.about{
+   /* padding-top:100px; */
+   margin: auto;
+   width: 60%;
+   padding-bottom:200px;
+   /* margin-right: 60px; */
+   padding-right: 5%;
+   border-right: 8px solid black;
+   height: 100%;
+}
 
 
-  p {
-    margin: 25px 50px 75px 100px;
-  }
-  body {
-    background-color: lightblue;
-  
-  }
+#nav-item:hover{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 10pt;
+    padding-left: 16px;
+    transition: all 500ms;
+    border-left: 8px solid black;
+    color: lime;
+}
 
-  
+p{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 900;
+    font-size: 48pt;
+    color: whitesmoke;
+}
 
+/* a{
+    color:salmon;
+} */
 
-
-
-
-  h1 {
-    color: rgb(8, 2, 2);
-    text-align: center;
-  }
-  
-  p {
-    font-family: verdana;
-    font-size: 20px;
-  }
-
-
-
-
-
-  
-  img {
-    
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 50%;
-    }
-
-  
-  
-  
-  .topnav {
-    background-color: #333;
-    overflow: hidden;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
+.link{
     text-decoration: none;
-    font-size: 17px;
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: red;
+}
+
+
+.link:hover, .link:visited, .link:link, .link:active
+{
+    text-decoration: none;
+}
+
+.link:hover{
+    color: #f2cc8c;
+}
+
+.link{
+    color: #999;
+}
+
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 60%;
+    /* border: 3px solid green; */
+    padding: 10px;
+}
+
+.contact{
+    background-color: black;
+    height: 980px;
+    text-decoration: none;
     color: white;
-  }
+    
+}
+
+.contact-container{
+   margin: auto;
+   width: 78%;
+   padding-top:200px;
+   /* margin-right: 60px; */
+   padding-bottom: 0;
+   
+}
+
+
+img{
+    padding-right: 64px;
+    /* padding-left: 64px; */
+    padding-top: 24px;
+    padding-bottom: 60px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.project-left{
+    position: relative;
+    /* border: 2px solid salmon; */
+    display: flex;
+    /* padding-top: 64px;
+    padding-bottom: 64px; */
+}
+
+/* .project-image{
+     position: relative;
+     border: 2px solid salmon;
+} */
+
+
+
+
+.view-project{
+    border: 5px solid salmon;
+    height: 200px;
+}
+
+h4{
+    /* border: 5px solid salmon; */
+    font-size: 64pt !important;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding-right: 20px;
+    bottom: 0px;
+    right: 20px;
+    display: block;
+    text-align: right;
+    letter-spacing: -0.03em;
+    line-height: 0.80em;
+    padding-top: 64px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 900 !important;
+}
+
+.info{
+    transform: rotate(-90deg);
+    transform-origin: 100% 0;
+    position: absolute;
+    bottom: 540px;
+    right: 55px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    /* font-size: 10pt;  */
+    font-size: .75em;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+
+.buttons{
+    display:flex;
+    /* border: 2px solid salmon; */
+    /* justify-content: flex-end; */
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: start;
+    position: absolute;
+    height: 100%;
+    width: 40%;
+}
+
+#proj-1, #git-1,#proj-2, #git-2, #proj-3, #git-3, #proj-4, #git-4, #git-5, #git-6, #git-7,#proj-6,#proj-7, #git-8, #git-9,#proj-10, #git-10 {
+    margin: 24px;
+    width: 100%;
+    padding-left: 0;
+    margin: 0;
+    margin-bottom: 24px;
+    border-radius: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+.buttons::hover{
+    display: block;
+}
+
+.project-container{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}

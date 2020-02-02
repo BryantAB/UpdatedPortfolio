@@ -1,47 +1,183 @@
 <!DOCTYPE html>
-<html lang=“en-us”>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
 
- <meta charset=“UTF-8">
- <meta name=“viewport” content=“width=device-width, initial-scale=1.0">
- <meta http-equiv=“X-UA-Compatible” content=“ie=edge”>
- <title>About | Aaron Bryant</title>
- <link rel="stylesheet" type="text/css" href="style.css">
+     <!-- jQuery link -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+      <!-- css styling -->
+     <link rel="stylesheet" href="assets/style/style.css">
+
+     <!-- bootstrap -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+     <!-- google fonts -->
+     <link href="https://fonts.googleapis.com/css?family=Heebo:400,700,900|Montserrat:100,300,400,500,700,900&display=swap" rel="stylesheet">
+
+     <link rel='shortcut icon' type='image/x-icon' href="assets/style/images/fav.png">
+  
+</head>
+<body>
+ 
+
+    
+
+<div class= "nav-container">
+    <nav class="nav flex-column">
+        <a class="nav-link active slide-section" id= "nav-item"href="#about">About</a>
+        <a class="nav-link slide-section" id= "nav-item" href="#selected-works">Selected Works</a>
+        <a class="nav-link slide-section" id= "nav-item"href="#contact">Contact</a>
+    </nav>
+</div>
+
+<div class = "pageContainer">
 
 
+    <div id="about" class = "about">
+        <img>
+        <p>
+           Hello, my name is Aaron Bryant. Im a full stack developer. My strenghts are frontend and Css. Im a Passionate individual and Im always eager to learn more.<a class = "link" href="#contact">get in touch</a>.
+        </p>
+    </div>
+
+    <div id = "selected-works" class = "projects">
+        <!-- project 1 -->
+        <div class = "project-container">
+        <div class = "project-left">
+        <div class= "buttons">
+    
+         <button type="button" id = "git-1" class="btn btn-dark">View Code</button>
+         <!-- <a>hello</a>
+         <a>hello2</a> -->
+        </div>
+            <div>
+            <img src="assets/style/images/leaves.png">
+            </div>
+            <h4>WordGuess Game</h4>
+            <h5 class = "info">APIs - Javascript - Materialize</h5>
+            
+        </div>
+    </div>
+ 
+        <!-- project 2 -->
+        <div class = "project-container">
+                <div class = "project-left">
+                <div class= "buttons">
+                 
+                 <button type="button" id = "git-2" class="btn btn-dark">View Code</button>
+                 <!-- <a>hello</a>
+                 <a>hello2</a> -->
+                </div>
+                    <div>
+                    <img src="assets/style/images/sushi.png">
+                    </div>
+                    <h4>Trivia Game</h4>
+                    <h5 class = "info">Timers - jQuery - Custom Css</h5>
+                    
+                </div>
+               
+            </div>
+
+        <!-- project 3 -->
+        <div class = "project-container">
+                <div class = "project-left">
+                <div class= "buttons">
+                 
+                 <button type="button" id = "git-3" class="btn btn-dark">View Code</button>
+                </div>
+                    <div>
+                    <img src="assets/style/images/tea.png">
+                    </div>
+                    <h4>GiphyApi</h4>
+                    <h5 class = "info">Vanilla Javascript - Custom Css</h5>
+                    
+                </div>
+               
+            </div>
+        <!-- project 4 -->
+        <div class = "project-container">
+                <div class = "project-left">
+                <div class= "buttons">
+              
+                 <button type="button" id = "git-4" class="btn btn-dark">View Code</button>
+                </div>
+                    <div>
+                    <img src="assets/style/images/rails.png">
+                    </div>
+                    <h4>Clicky Game</h4>
+                    <h5 class = "info">Fire Base - jQuery - Bootstrap</h5>
+                </div>
+            </div>
+        <!-- project 5 -->
+            <div class = "project-container">
+                <div class = "project-left">
+                <div class= "buttons">
+                 <button type="button" id = "git-5" class="btn btn-dark">View Code</button>
+                </div>
+                    <div>
+                    <img src="assets/style/images/rails.png">
+                    </div>
+                    <h4>Friend Finder</h4>
+                    <h5 class = "info">Node - APIs - Javascript</h5>
+                </div>
+            </div>
+    
+
+            <!-- project 6 -->
+            <div class = "project-container">
+                <div class = "project-left">
+                <div class= "buttons">
+                 
+                 <button type="button" id = "proj-6" class="btn btn-dark">View Project</button>
+                </div>
+                    <div>
+                    <img src="assets/style/images/rails.png">
+                    </div>
+                    <h4>Google Books</h4>
+                    <h5 class = "info">Node - SQL - Javascript</h5>
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+
+    <div id = "contact" class = "contact">
+        <div class = "contact-container">
+            <p>
+                    you can contact me via  <a class = "link" href="https://www.linkedin.com/messaging/thread/6611905232660164608/" target="blank_">linkedin</a> or <a class = "link" href="abryant206@yahoo.com">email</a> 
+            </p>
+        </div>    
+    </div>
+</div>
 
 
+</div>
+
+    
 
  
-</head>
-    <body> <style>
-        body {background-color: powderblue;}
-        h1   {color: greenyellow;}
-        p    {color: red;}
-        </style>
-      
-            
-            <header id=“Greats”>
-              
-                <nav>
-                  <div class="topnav">
-                    <a class="active" href="#home">Home</a>
-                    <a href="https://github.com/BryantAB">GitHub Repos</a>
-                    <a href="www.linkedin.com/in/aaron-bryant-465817195">LinkIn</a>
-
-                    <a href="">Resume</a>
-                  </div>
-                  </nav>
 
 
 
 
-                  
-                  <img src="https://vignette.wikia.nocookie.net/inception/images/2/2a/Six_digit_phone_number.png/revision/latest?cb=20131023052443" alt="inception-Napkin"
-        <h1>About Me</h1>
-        <p></p>
 
 
-    </body>
 
+ <script src="assets/javascript/script.js"></script>
+ 
+ <!-- bootstrap jQuery links -->
+ 
+ 
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+ 
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  
+
+</body>
 </html>
